@@ -89,6 +89,7 @@ const getAllTiket = async (req, res) => {
 
     // filter
     const filter = req.query.filter;
+    
 
     // query
     let query = {};
